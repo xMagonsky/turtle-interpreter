@@ -1,0 +1,47 @@
+rek(x,n)
+      if(n>0)
+            prawo(180);
+            rek(x * 0.5, n-1);
+            lewo(180);
+            przod(x* 0.5);
+            prawo(60);
+            przod(x *0.5);
+
+            prawo(180);
+            rek(x * 0.5, n-1);
+            lewo(180);
+            przod(x* 0.5);
+            prawo(60);
+            przod(x *0.5);
+
+            prawo(180);
+            rek(x * 0.5, n-1);
+            lewo(180);
+            przod(x* 0.5);
+            prawo(60);
+            przod(x *0.5);
+
+            prawo(180);
+            rek(x * 0.5, n-1);
+            lewo(180);
+            przod(x* 0.5);
+            prawo(60);
+            przod(x *0.5);
+
+            prawo(180);
+            rek(x * 0.5, n-1);
+            lewo(180);
+            przod(x* 0.5);
+            prawo(60);
+            przod(x *0.5);
+
+            prawo(180);
+            rek(x * 0.5, n-1);
+            lewo(180);
+            przod(x* 0.5);
+            prawo(60);
+            przod(x *0.5);
+      end if;
+end rek;
+
+rek(33, 4);

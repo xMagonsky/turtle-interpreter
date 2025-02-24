@@ -1,0 +1,15 @@
+sierpinski(bok, minBok)
+    if (bok>minBok)
+        sierpinski(bok*0.5, minBok);
+        forward(bok);
+        right(120);
+        sierpinski(bok*0.5, minBok);
+        forward(bok);
+        right(120);
+        sierpinski(bok*0.5, minBok);
+        forward(bok);
+        right(120);
+    end if;
+end sierpinski;
+
+sierpinski(200, 20);

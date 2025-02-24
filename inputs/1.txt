@@ -1,0 +1,14 @@
+krzaczek ( x, n )
+    if ( n > 0 )
+        przod ( x );
+        lewo ( 45 );
+        krzaczek( x * 0.75 , n-1);
+        prawo ( 90 );
+        krzaczek( x * 0.75, n-1);
+        lewo ( 45 );
+        tyl( x );
+
+    end if;
+end krzaczek;
+
+krzaczek( 20 , 15 );
